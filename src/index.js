@@ -1,5 +1,5 @@
 import "./styles.css";
-import contentDiv from './homepage.js'; // <-- path to your file
+import homePageContent from "./pages/homepage.js";
 
 console.log('Hello, Restaurant Page!');
-document.body.appendChild(contentDiv);
+document.body.appendChild(homePageContent);
